@@ -1,0 +1,160 @@
+.body {
+    background-image: url("../Image/back.png");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+
+}
+
+.word ul {
+    display: inline;
+}
+
+.word li {
+    font-size: larger;
+    font-weight: bolder;
+    cursor: pointer;
+    display: inline;
+    vertical-align: middle;
+    margin: 10px;
+    padding: 12px;
+}
+
+.leftword {
+    position: relative;
+    left: 1%;
+}
+
+.rightword {
+    float: right;
+    margin-right: 0;
+}
+
+.rightword :first-child {
+    border-left: none;
+    margin-right: 0;
+}
+
+.rightword li {
+    border-left: 2px solid white;
+    display: inline;
+    padding-left: 1em;
+}
+
+.leftMsg {
+    float: left;
+    width: 50%;
+}
+
+.leftMsg p {
+    text-align: center;
+}
+
+.title {
+    margin-top: 15%;
+    font-weight: bolder;
+    font-size: 50px;
+}
+
+.subtitle {
+    font-size: larger;
+    font-weight: bold;
+}
+
+.buttonGroup {
+    text-align: center;
+}
+
+.buttonGroup button {
+    border: none;
+    border-radius: 30px;
+    box-shadow: 0 2px 5px #000;
+    margin: 10px 40px;
+    padding: 10px 20px;
+    font-weight: bolder;
+    letter-spacing: 3px;
+    cursor: pointer;
+}
+
+.view {
+    background: none;
+}
+
+.submit {
+    color: white;
+    /* background-color: deepskyblue; */
+    background: linear-gradient(90deg,#03a9f4,#f441a5,#ffeb3b,#03a9f4);
+    background-size: 400%;
+}
+.submit:hover{
+    animation: sun 8s infinite;
+}
+@keyframes sun{
+    100%{
+        background-position: -400% 0;
+    }
+}
+.rightPic {
+    float: left;
+    margin-left: -8%;
+}
+
+.line {
+    margin: 0 auto;
+    text-align: center;
+    width: 75%;
+    border-bottom: 2px solid #ccc;
+    display: block;
+}
+
+.line {
+    /* display: block; */
+}
+
+.show {
+    clear: both;
+    font-weight: bold;
+    color: darkgrey;
+    display: inline-block;
+    width: 20%;
+    padding: 0 4%;
+}
+
+.show p {
+    text-align: center;
+}
+
+.footer {
+    width: 75%;
+    margin: 0 auto;
+}
+
+.footer_title {
+    font-size: larger;
+    font-weight: bold;
+    color:gray;
+    letter-spacing: 2px;
+    text-align: center;
+}
+
+.pattern {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    width: 25%;
+}
+.pattern img {
+    margin: 5px;
+    width: 50%;
+    height: auto;
+    cursor: pointer;
+}
+
+.pattern p {
+    text-align: center;
+    font-size: large;
+    color: grey;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
