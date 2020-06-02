@@ -1,4 +1,3 @@
-# DU-repository
 ***
 **This is my first Webpage**
 
